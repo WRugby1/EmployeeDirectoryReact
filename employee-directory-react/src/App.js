@@ -41,7 +41,7 @@ const App = () => {
   const [rowData, setRowData] = useState([]);
 
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/ag-grid/ag-grid/master/grid-packages/ag-grid-docs/src/sample-data/rowData.json')
+    fetch('https://raw.githubusercontent.com/WRugby1/EmployeeDirectoryReact/main/employee-directory-react/src/MOCK_DATA.json')
       .then(result => result.json())
       .then(rowData => setRowData(rowData))
   }, []);
@@ -52,7 +52,7 @@ const App = () => {
   }
 
   return (
-    <div className="ag-theme-alpine" style={{ height: 400, width: 600 }}>
+    <div className="ag-theme-alpine" style={{ height: 1000, width: 1100 }}>
       {/* {this.state.employees.map(employee => ( */}
       <AgGridReact
         onGridReady={onGridReady}
