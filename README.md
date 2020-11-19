@@ -9,7 +9,7 @@ This directory App allows users to track information such as name, email, phone 
 <a href="#questions">Questions</a><br>
 
 # Installation 
-<a id="install">Run this page using github Pages at:</a>
+<a id="install">Run this page using github Pages at: https://wrugby1.github.io/EmployeeDirectoryReact/</a>
 # Usage
 <a id="#usage">Open usage</a>
 # Contributing
